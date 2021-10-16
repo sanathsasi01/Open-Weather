@@ -1,0 +1,9 @@
+.firstPageContainer {
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/bg1.jpg');
+    background-size: cover;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
