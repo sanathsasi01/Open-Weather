@@ -10,7 +10,7 @@
     width: 50%;
     min-width: 300px;
     margin: auto;
-    height: 40vh;
+    /* height: 40vh; */
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
     border-radius: 5px;
     background-color: rgba(255, 255, 255, .15);
@@ -19,6 +19,7 @@
 }
 input[type=submit]:hover {
     cursor: pointer;
+    font-weight: bold;
 }
 input {
     display: block;
@@ -43,5 +44,12 @@ input[type=submit] {
 h2 {
     color: white;
     text-transform: uppercase;
+    text-align: center;
+}
+
+.errorMessage {
+    text-align: center;
+    color: rgb(209, 45, 45);
+    text-transform: capitalize;
     text-align: center;
 }

@@ -1,0 +1,64 @@
+.formContainer {
+    /* border:1px solid red; */
+    width: 40%;
+    min-width: 300px;
+    margin: auto;
+    padding-top: 2%;
+}
+.card {
+    /* border:1px solid green; */
+    width: 50%;
+    min-width: 300px;
+    margin: auto;
+    height: 40vh;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    padding: 1%;
+}
+
+/* result */
+
+.degree {
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+.degree span {
+    font-size: 2rem;
+}
+.outerContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.rightContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rightContainer p {
+    color: white;
+    font-weight: 500;
+}
+.rightContainer span {
+    color: whitesmoke;
+    font-weight: lighter;
+
+}
+.innerContainer {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+.innerContainer span {
+    color: whitesmoke;
+    font-weight: lighter;
+
+}
