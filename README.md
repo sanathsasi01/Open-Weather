@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Getting Started with React Basics
+
+First attempt with react and axios.
+This app uses axios get method to fetch the data of a city inputed by the user, and displayes the temperature, humidity and pressure.
+The data is fetched from open weather api.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
